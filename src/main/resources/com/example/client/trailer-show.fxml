@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane prefHeight="504.0" prefWidth="694.0" style="-fx-background-color: #495D6A;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.TrailerShowController">
+   <children>
+      <WebView fx:id="webView" layoutX="1.0" layoutY="54.0" prefHeight="448.0" prefWidth="694.0" />
+      <Label fx:id="headerTitle" alignment="CENTER" layoutX="2.0" prefHeight="52.0" prefWidth="694.0" style="-fx-background-color: #000000;" text="Movie Trailer" textFill="#dd9a30">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
